@@ -1,0 +1,19 @@
+h2 {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.options {
+    /* display: none; */
+    position: relative;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10px 10px;
+    width: 10%;
+    
+}
+
+/* hightlight options */
+.options:hover {
+        background-color: rgb(67, 65, 65);
+    }
