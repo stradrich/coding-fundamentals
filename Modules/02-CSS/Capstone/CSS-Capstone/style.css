@@ -60,7 +60,7 @@ body {
         }
 }
 
-/* oversized */
+/* oversized - QUESTION: How do I make the image in the "oversized" section fit for the remaining >= 1440px screen? */
 @media (min-width: 1440px) {
     body {
         background-color: black;
