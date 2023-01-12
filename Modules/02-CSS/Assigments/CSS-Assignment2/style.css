@@ -1,0 +1,14 @@
+.breadcrumb {
+    padding: 5px;
+    background-color: lightgrey;
+    list-style-type: none;
+
+}
+
+.breadcrumb-li {
+    display: inline;
+}
+
+.breadcrumb-li a {
+    text-decoration: blue;
+}
