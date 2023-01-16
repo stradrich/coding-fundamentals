@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.box1 {
+    /* padding: 10px; */
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.main-pic {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    position: relative;
+}
+
+.logo-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 9999px;
+}
+
+/* !!! HOW TO I MAKE THAT DIV STAY THERE WHEN PAGE GET STRETCHED OUT? */
+.tags {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.content-title {
+    color: black;
+    font-weight: bold;
+}
+
+/* HOW DO I MAKE THE NAME AND DATES STAY NEXT TO THE LOGO?! */
+.name, .dates {
+    color: lightgray;
+    font-size: x-small;
+}
