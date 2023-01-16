@@ -1,0 +1,186 @@
+/* Flexbox */
+
+/* Horizontal */
+/* justify-content */
+/* flex-start, flex-end, center, space-between, space-around */
+
+/* Horizontal (multiple lines, no effect if single line)*/
+/* align-content */
+
+/* Vertical (within container)*/
+/* align-items or align-self*/
+/* flex-start, flex-end, center, baseline, stretch */
+
+
+/* Fliping */
+/* flex-direction */
+/* row, row-reverse, column, column-reverse */
+
+/* order */
+/* -1 , 0, 1, 2 */
+
+/* Even Spread */
+/* flexwrap */
+/* wrap, nowrap, wrap-reverse */
+
+/* Flipping + Even Spread */
+/* flex-flow */
+
+/* BODY SECTION */
+body {
+    background-color: #04121f;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin: 0;
+   
+    
+    /* justify-content: center; */
+
+    
+    /* border: 1px solid white;
+     */
+   
+  
+}
+
+/* HEADER SECTION */
+header {
+    border-bottom: 1px solid white;
+    
+    
+}
+
+.promo {
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    padding: 1px;
+
+}
+
+nav {
+    display: inline;
+    padding: 10px;
+    /* justify-items: center;
+    align-items: center;
+    flex-direction: column; */
+    
+}
+
+.nav-options {
+    /* display: inline; */
+    /* margin: 50px; */
+    display: inline-block;
+    list-style-type: none;
+    /* flex-wrap: wrap; */
+    padding: 40px;
+   
+    /* justify-content: flex-end;
+    /* align-items: flex-end; */ 
+    /* border: 1px solid white; */
+    /* width: 100%; */
+}
+
+.nav-list {
+    display: inline-block;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.a-link {
+    text-decoration: none;
+    color: white;
+
+}
+
+.image1 {
+    margin-top: 50px;
+    border-radius: 9999px;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.nav-button {
+    background-color: blue;
+    border-color: blue;
+    /* display: inline; */
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    /* justify-content: flex-end; */
+}
+
+.boxes {
+    flex-direction: row;
+}
+
+.left-box {
+    /* Box */
+    /* border: 1px solid white; */
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 40px;
+    margin-left: 60px;
+    align-items: center;
+    /* Text Display */
+    color: white;
+    /* flex-wrap: wrap; */
+    overflow: scroll;
+    /* Box adjustment */
+    align-items: flex-start;
+    
+
+    
+} 
+
+.right-box {
+    /* Box */
+    /* border: 1px solid white; */
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 60px;
+    margin-left: 40px;
+    border-radius: 5%;
+     /* Text Display */
+     color: white;
+     max-width: 100%;
+     flex-wrap: wrap;
+     /* overflow: scroll; */
+    /* Box adjustment */
+    align-items: flex-end;
+    
+} 
+
+.image2 {
+    max-width:100%;
+    max-height:100%;
+}
+
+/* MAIN SECTION */
+
+main {
+    background-color: white;
+    color: black;
+    padding: 60%;
+
+}
+
+/* Sign Up */
+.courses {
+    background-color: #04121f;
+    color: white;
+    
+}
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: white;
+    color: black;
+    
+}
