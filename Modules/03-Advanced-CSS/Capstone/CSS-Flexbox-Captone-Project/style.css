@@ -1,0 +1,226 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+/* Navigation Bar */
+img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 9999px;
+    justify-content: flex-start;
+}
+
+nav {
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    /* flex-wrap: wrap; */
+   
+
+}
+
+ul {
+    list-style-type: none;
+    color: grey;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 200px;
+    text-decoration: none;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    flex-direction: row;
+}
+
+.loginContainer {
+    justify-content: flex-end;
+
+}
+button {
+    background-color: whitesmoke;
+    border: 1px solid white;
+    height: 40px;
+    width: 80px;
+    font-size: 15px;
+}
+
+/* Heading Section */
+
+header {
+    display: flex;
+
+    height: 30vh;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    margin-top: 200px;
+    margin-bottom: 500px;
+    flex-wrap: wrap;
+
+}
+
+/* urgh... How to put the image next to the texts? */
+#img-deco {
+    display: flex;
+    /* flex-direction:row; */
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: flex-end;
+    border-radius: 1px;
+    flex-wrap: wrap;
+}
+
+/* Contact Card Section */
+
+main {
+    border: 1px solid black;
+
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* LEFT BOX */
+.left-box {
+    display: flex;
+    background-color: pink;
+    margin: 5px;
+}
+
+/* urgh why is it not aligned?! fffff */
+.cardContainer {
+    /* border: 1px solid black; */
+    height: 80vh;
+    display: flex;
+    
+   
+}
+
+.cardInfo {
+    padding: 20px;
+    width: 500px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+
+.cardDescription {
+    padding: 40px;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px black;
+    
+}
+
+svg {
+    width: 30px;
+
+}
+
+.phoneNumber {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px black;
+
+}
+
+.numberUSA {
+    margin: 5px;
+}
+
+.cardEmail {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px black;
+
+}
+
+.emailAddress {
+    margin: 5px;
+}
+
+.socialLinks {
+    display: flex;
+    padding: 20px;
+    width: 2px !important;
+    height: 2px !important;
+}
+
+/* RIGHT BOX (FORM) */
+.right-box {
+    border: 1px solid black;
+    font-size: small;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+   
+}
+
+.formDetails {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* urgghh how to make the first-last name, email-phone, etc same row.... doesnt matter the screen size */
+.classname {
+    justify-content: center;
+}
+
+
+/* urghhhh... how to separate the message and max?! */
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.messageHead {
+    display: flex;
+    align-items: flex-start;
+
+}
+.word-limit {
+    display: flex;
+    align-items: flex-end;
+    color: grey;
+
+}
+
+.submitButton {
+    background-color: pink;
+    border-radius: 8px;
+}
+
