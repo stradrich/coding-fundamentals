@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0;
+}
+
+.profile {
+    background-color: whitesmoke;
+    border: 1px solid white;
+    
+    height: 400px;
+    width: 10000px;
+    
+    /* position: absolute; */
+    
+    
+}
+
+h2 {
+    color: black;
+}
