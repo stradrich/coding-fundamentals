@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+}
+/* Completed Todo */
+[done] {
+    color: green;
+    text-decoration: line-through;
+}
+
+/* Deleted Todo */
+.deleted_todo {
+    display: none;
+}

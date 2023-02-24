@@ -1,0 +1,40 @@
+* {    
+    margin: 0;    
+    padding: 0;    
+    box-sizing: border-box;
+  }
+  
+  body {    
+    font-family: system-ui;    
+    min-height: 100vh;    
+    display: flex;    
+    justify-content: center;    
+    align-items: center;
+  }
+  
+  .deadline {    
+    display: flex;
+  }
+  
+  .deadline-format {    
+    background: hsl(209, 61%, 16%);    
+    color: #fff;    
+    margin-right: 1rem;    
+    width: 5rem;    
+    height: 5rem;    
+    display: grid;    
+    place-items: center;    
+    text-align: center;
+  }
+  
+  .deadline-format span {    
+    display: block;    
+    text-transform: uppercase;    
+    letter-spacing: 2px;    
+    font-size: 0.85rem;
+  }
+  
+  .deadline h4 {    
+    font-size: 2rem;    
+    margin-bottom: 0.25rem;
+  }
