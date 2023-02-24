@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/experience.css">
+    <link rel="stylesheet" href="styles/work.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <script src="main.js" defer></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo__container">
+            <a href="#">
+                <svg class="user__icon"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>                  
+            </a>
+        </div>
+
+        <button class="mobile__navigation">
+            <svg class="menu__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>  
+        </button>
+
+        <nav class="navigation__container">
+            <ol class="navigation__links">
+                <li class="link__item">
+                    <span class="highlight">01.</span>
+                    <a class="link__name underline" href="/portfolio-website#about">About</a>
+                </li>
+                <li class="link__item">
+                    <span class="highlight">02.</span>
+                    <a class="link__name underline" href="/portfolio-website#experience">Experience</a>
+                </li>
+                <li class="link__item">
+                    <span class="highlight">03.</span>
+                    <a class="link__name underline" href="/portfolio-website#work">Work</a>
+                </li>
+                <li class="link__item">
+                    <span class="highlight">04.</span>
+                    <a id='email' class="link__name underline" href="/portfolio-website#contact">Contact</a>
+                </li>
+
+                <!-- SHOW WHEN email is clicked -->
+                <!-- !!! CSS NEEDS TO SORT OUT -->
+                <div class="email-form" hidden>
+                    <div>
+                        <h2>Contact Us</h2>
+                        <p>Swing by for a cup for tea, or leave us a message: </p>
+                    </div>
+                    <div>
+                        <form action="#"></form>
+                        <label for="name">First Name</label>
+                        <input type="text">
+                        <label for="lastName">Last Name</label>
+                        <input type="text">
+                        <label for="country">Country</label>
+                        <select name="countries" id="">
+                            <option value="Malaya">Malaya</option>
+                            <option value="North Borneo">North Borneo (Sabah)</option>
+                            <option value="Sarawak">Sarawak</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Thailand">Thailand</option>
+                            <option value="Indonesia">Indonesia</option>
+                            <option value="Vietnam">Vietnam</option>
+                            <option value="Phillipine">Phillipine</option>
+                            <label for="thoughts">Thoughts: </label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Please write something... "></textarea>
+                        </select>
+                    </div>
+                </div>
+
+            </ol>
+
+            <div>
+                <a class="resume__link" href="/portfolio-website/resume/pdf">Resume</a>
+            </div>
+        </nav>
+
+    </header>
+
+   
+
+    <main>
+        <section id="home" class="home__section">
+            <h4 class="home__title">Hi, my name is</h4>
+            <h2 class="home__username">Aldrich Pinso</h2>
+            <h3 class="home__subtitle">I have 2 vocations, one for the soul and another for buidling things on the web </h3>
+
+            <p class="home__description">A classically trained <span class="highlight underline">violinist</span>, an educator, and many more. I started <span class="highlight underline"> programming</span> during the Covid19 lockdown,
+                the motivation and philosophy behind it caught my attention ever since. 
+                I've always wanted to <span class="highlight underline">hack life</span>, build products and solve real world problem. My next goal is to be a <span class="highlight underline">Full Stack Developer</span>".
+                Have you been there and done that?
+            </p>
+
+            <div class="home__cta">
+                <a class="cta__link" href="/portfolio-website/#contact">Contact me!</a>
+            </div>
+        </section>
+
+        <section id="about" class="about__section">
+            <h2 class="about__title">
+                <span>01. </span>
+                About Me
+            </h2>
+            <div class="about__container">
+                <div class="about__content">
+                    <div class="about__text">
+                        <p>Hello! My name is <span class="highlight underline">Aldrich Pinso</span> and I want to share my journey into Tech. I'm a violinist and web developer seeking to use my technological skills to faciliate open source learning </p>
+                        
+                        <p>Fast-forward to today, I've joined Sigma School bootmcap to further strengthen my skills to build dashboard for E-commerce platform. 
+                            My main focus these days is building accessible, inclusive prodcuts and educate people about programming and <span class="highlight underline">Web develpment</span>. </p>
+                            
+                        <p>Here are a few technologies I've been working with recently:</p>
+                        
+                        <div>
+                            <ul class="about__technologies">
+                                <li>JavaScript</li>
+                                <li>R programming</li>
+                                <li>TypeScript</li>
+                                <li>Vue</li>
+                                <li>Node.js</li>
+                                <li>TailwindCSS</li>
+                                <li>GraphQL</li>
+                                <li>AWS</li>
+                                <li>Google Cloud</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about__image">
+                    <img src="./assets/IMG_2111.jpg" alt="profile-picture">
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="experience" class="experience__section">
+            <h2 class="experience__title">
+                <span>02. </span>
+                Where I have worked
+            </h2>
+
+                <div class="experience__container">
+                    <div class="experience__card">
+                        <h3 class="experience__role">
+                            <span>Software Developer</span>
+                            @
+                            <span>
+                                <a class="underline experience__company" href="#">Sigma School</a>
+                            </span>
+                        </h3>
+                        <p class="experience__date">January 2023 - Present</p>
+                    
+                        <ul class="experience__about">
+                            <li>Write modern, performant, maintainable code for a diverse array of projects</li>
+                            <li>Work with a variety of different languages, platforms, frameworks, and plugins such as JavaScript, Vue, Tailwind, AWS, Stripe</li>
+                            <li>Communicate with multi-disciplinay teams of developers, designers, product manager, and clients</li>
+                        </ul>
+                       
+                    </div>
+                </div>
+            
+        </section>
+       
+        <div class="experience__container">
+            <div class="experience__card">
+                <h3 class="experience__role">
+                    <span>Violinist (String Quartet; Orchestra; Educator)</span>
+                    @
+                    <span><a class="underline experience__company" href="#">DSCH String Quartet (former leader); National Symphony Orchestra; Garden International School & String Soul App & Bentley Music Academy</a></span>
+                </h3>
+                <p class="experience__date"> 2017 - Present (for Bentley Music Academy only)</p>
+            
+                <ul class="experience__about">
+                    <li>Performing with various artists and in various music festivals (A-Mei/A-Lin/Sheila Majid/China Contemporary Music Festival/Lancut Music Festival/etc)</li>
+                    <li>Conduct individual and group lessons</li>
+                    <li>Music outreach to rural school in Malaya and Borneo </li>
+                    <li>Prepare students for instrumental and theory exams</li>
+                    <li>Organize and performing for recitals and masterclasses</li>
+                    <li>Recording sessionist</li>
+                    <li>Edit music videos</li>
+                </ul>
+               
+            </div>
+        </div>
+    
+</section>
+
+         <section id="work" class="work__section">
+             <h2 class="work__title">
+                <span>03. </span>
+                Some Things I've Built
+            </h2>
+                    <div class="work__container">
+                        <div class="work__card">
+                            <div class="project__container">
+                                <p class="highlight">Featured Project</p>
+                                <h3 class="project__title"> WhatsApp Sender</h3>
+    
+                                <p class="project__description">WhatsApp messages bulk sender using Python Selenium</p>
+
+                                    <ul class="project__technologies">
+                                        <li>Python</li>
+                                        <li>Selenium</li>
+                                        <li>WhatsApp</li>
+                                        <li>Automation</li>
+                                    </ul>
+
+                                    <div class="project__links">
+                                        <a href="https://github.com/stradrich">
+                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <title>GitHub</title>
+                                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                        </svg> 
+                                        </a>
+                                    </div>                               
+                            </div>
+
+                                <div class="work__cards">
+                                    <div class="work__card">
+                                        <div class="project__image">
+                                            <img src="/assets/md_5b321c98efaa6.jpeg" alt="whatsApp-image">
+                                         </div>
+                                    </div>
+                                </div>    
+                                       
+                        </div>
+                    </div>    
+            
+         </section>
+
+        </section>
+        <section id="contact" class="contact__section">
+            <h2 class="contact__title">
+                <span>04. </span>
+                What's Next? 
+            </h2>
+
+            <div class="contact__container">
+                <div class="contact__content">
+                    <h3>Get In Touch</h3>
+                    <p>My inbox is always open, I would like to connect with the like minded and be at service for your businesses. </p>
+                </div>
+                <div class="contact__cta">
+                    <a href="#">Say Hello</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer__container">
+        <ul class="footer__socials">
+            <li class="social__lists">
+                <a class="social__link" href="#">
+                    <svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="social__link" href="#">
+                    <svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="social__link" href="#">
+                    <svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+
+        <div>
+            <small>Designed & Built by Aldrich Pinso</small>
+        </div>
+
+    </footer>
+</body>
+</html>
+
