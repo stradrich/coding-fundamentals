@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+main {
+    /*  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+/* .google-logo {
+  
+} */
+
+.input-area {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  width: 800px;
+}
+
+.search-logo {
+ 
+ padding: 5px;
+ width: 24px;
+ height: 24px;
+ margin-right: 10px;
+
+ 
+ 
+}
+
+.main-input {
+  /* width: 800px; */
+  border: transparent;
+  flex: 1;
+}
+
+.google-lens-logo {
+  /* position: relative; */
+  width: 24px;
+
+}
+
+

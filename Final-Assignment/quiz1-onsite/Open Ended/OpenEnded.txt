@@ -1,0 +1,42 @@
+1. Why do we need a loop? How do you write a basic for loop?
+
+🌾  To sort whether certain condition(s) has and hans't been met, the loop enable us to be more efficient 
+    in reducing long lines of codes. 
+
+    There are a few commonly used loops in JavaScript;
+    (a). for loops
+    (b). for in loop
+    (c). for of
+    (d). while 
+
+    The syntax for (a). for loops goes like this:
+
+    // As long as the condition is true, checking will run, otherwise the loop should stop
+    for (let i = 0; i < something; i++) {
+        // whatever necessary goes inside here
+    }
+
+
+2. Difference between console.log() and return?
+
+🌾  console.log() prints whatever arguments into the console, only when it truly exists and properly defined, else we get nothing or error messages.
+    return is used to return specific values from a function
+
+3. What are truthy values? What are falsy values?
+
+🌾 These are Boolean expression. The falsy value throws null, undefined, false, NaN, etc. The truthy values return expected results.
+
+4. How does the internet work?
+
+🌾 Lets start off with the fact that it's an infrastructure that connects every electronical devices through individulized IP addresses, from its infancy till present day, it "tentacles" has grown 
+    monstrously wrapping the entire globe, https://www.submarinecablemap.com/. To see how we get from our local computer all the way to the World Wide Web,
+    we could use traceroute, you'll notice that your packets must travel through many things to get to their destination, the list of names could be very long and definitely giving me eye sore...
+
+5. How does a website work? What files are involved?
+
+🌾 The interplay between the database, such as the Domain Name Services (DNS), and the Hypertext Transfer Protocol (HTTP),
+allow web browsers and web servers use to communicate with each other.
+
+There are many types of files, https://www.exefiles.com/en/extensions/file-types/internet-web/, There are different types of 
+files such as text files, data files, directory files, binary and graphic files, and these different types of 
+files store different types of information.

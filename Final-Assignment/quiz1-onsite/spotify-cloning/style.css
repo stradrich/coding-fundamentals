@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.divider {
+    margin: 5px;
+}
+
+.lined-divider {
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 500px;
+    height: 100%;
+    
+}
+
+.nav-main-container {
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+    position: relative;
+}
+
+nav {
+    padding: 20px;
+    width: 200px;
+    height: 300%;
+    color: white;
+    border: 1px solid black;
+    background-color: pink;
+}
+
+.left-navigation-bar {
+    position: fixed;
+    left: 0;
+}
+
+.navigation-bar-upper {
+
+}
+
+.navigation-bar-middle {
+
+}
+
+.navigation-bar-lower {
+    /* position: absolute; */
+}
+
+.scroll-music {
+    border: 1px solid green;
+    margin-top: 180px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 800px;
+    height: 300%;
+    color: white;
+    border: 1px solid black;
+    background-color: orange;
+    /* position: sticky;
+    right: 0; */
+
+}
+
+.right-main-container {
+    /* position: sticky; */
+}
+
+.gradient-container {
+    /* gradient color */
+}
+
+.first-subdivision-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#toggle-back {
+
+}
+
+#toggle-next {
+
+}
+
+.profile-picture {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    
+}
+
+.open-options {
+   
+
+}
+
+#nav-options {
+    /* display: hidden; */
+    /* Need to unhide this part, DOM part */
+    
+}
+
+
+.second-subdivision-container {
+
+}
+
+.third-subdivision-containe {
+    display: flex;
+}
+
+.most-frequent-playlist {
+
+}
+
+.horizontal-card {
+
+}
+
+.black-container {
+
+}
+
+.jump-back-playlist {
+
+}
+
+.vertical-card {
+
+}
+
+.play-music-control {
+
+}
+
+.more-spotify-options {
+
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    padding: 50px;
+    width: 100%;
+    color: white;
+    border: 1px solid black;
+    background-color: green;
+}
